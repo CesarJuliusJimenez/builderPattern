@@ -49,7 +49,6 @@ public class User {
         private String phone;
         private Integer age;
 
-
         public UserBuilder firstName(String firstName) {
             this.firstName = firstName;
             return this;

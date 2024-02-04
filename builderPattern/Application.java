@@ -1,5 +1,4 @@
 package builderPattern;
-
 import java.util.Scanner;
 
 public class Application {
