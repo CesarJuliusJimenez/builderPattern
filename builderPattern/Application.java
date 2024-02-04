@@ -51,7 +51,11 @@ public class Application {
             }
         }
 
-        User user = new User.UserBuilder(firstName, lastName, phone, age)
+        User user = new User.UserBuilder()
+                .phone(phone)
+                .lastName(lastName)
+                .age(age)
+                .firstName(firstName)
                 .email(email)
                 .address(address)
                 .build();
